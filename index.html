@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C4 Assesment</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<header>
+    <ul>
+        <li><img src="images/logo_transparent.png" alt="image"></li>
+        <li id ="home">Home</li>
+        <li id="randomBook">Random Book</li>
+        <li><a href="about-us.html">About us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+</header>
+<section class="main">
+<section class="filter">
+    <h2>Filter by categories:</h2>
+<input type="radio" id="electronicInfo" name="test" value="electronic" >
+ <label for="electronicInfo">Electronic information resource searching</label><br>
+ <input type="radio" id="history" name="test" value="history">
+ <label for="history">History</label><br>
+ <input type="radio" id="languageArtAndDisciplines" name="test" value="languageArtAndDisciplines">
+ <label for="languageArtAndDisciplines">Language Arts & Disciplines</label><br>
+ <input type="radio" id="businessAndEconomics" name="test" value="businessAndEconomics">
+ <label for="businessAndEconomics">Business & Economics</label><br>
+ <input type="radio" id="computers" name="test" value="computers">
+ <label for="computers">Computers</label><br>
+ <input type="radio" id="education" name="test" value="education">
+ <label for="education">Education</label><br>
+ <input type="radio" id="medical" name="test" value="medical">
+ <label for="medical">Medical</label><br>
+ <input type="radio" id="reference" name="test" value="reference">
+ <label for="reference">Reference</label><br>
+ <input type="radio" id="mathematics" name="test" value="mathematics" >
+ <label for="mathematics">Mathematics</label><br><br>
+ <button id="filterButton">Filter</button>
+</section>
+    <section class="nameAndSort">
+        <div class="name">Showing results for<span id="results"> Books</span> <br> (<span id="numberOfBooks">9</span>/40)</div>
+        <div class="sort"><label for="dog-names">Sort By:</label>
+            <select name="sort" id="sortArrangement">
+                <option selected disabled >...</option>
+              <option value="a-z">Alphabetical a-z</option>
+              <option value="z-a">Alphabetical z-a</option>
+              <option value="upwards">Year published ascending</option>
+              <option value="downwards">Year published descending</option>
+            </select>
+            <input type="button" value="Sort" id="sortButton" >
+        </div>
+           
+         <div class="things">
+            
+         </div>
+         <button id="showMore">Show More</button>
+         <button id="showLess">Show Less</button>
+         <button id="random">Show other random book</button>
+
+         <footer><br><h3>@ 2023 Lyuboslav Yordanov</h3> <a href="#">T&C</a>, <a href="">Privacy Policy</a>, <a href="">Contact Us</a><br> </footer>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
