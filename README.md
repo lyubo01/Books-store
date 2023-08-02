@@ -1,3 +1,5 @@
+link for the site ---> google-books-store-asessment.netlify.app
+
 This is my project for a book store. I have taken data from the Google books api and implemented in the site. It has a navigarion bar that is sticky(stays while scrolling).
 It has a filter input which filters which books show based on their categorie. It has a sort input which can sort the books 4 ways - a-z, z-a, year ascendding and year descending.
 it has a show more/show less button which adds the books that aren't seen initially when loading the page and respectively hides the books that weren't initially shown.
